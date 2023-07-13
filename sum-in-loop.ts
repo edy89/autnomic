@@ -1,10 +1,6 @@
 import * as readline from 'readline';
 
-function sumArrayNumbers(lengthArray: number, numbers: number[]): number {
-  if (lengthArray > numbers.length) {
-    throw new Error("Error: length array is bigger than the Array's length");
-  }
-  
+function sumArrayNumbers(lengthArray: number, numbers: number[]): number {  
   let totalSum = 0;
 
   for (let i = 0; i < lengthArray; i++) {
